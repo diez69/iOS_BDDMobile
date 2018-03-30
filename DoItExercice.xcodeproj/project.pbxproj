@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B8E7FB8C206E1F9F00E2C101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E7FB8B206E1F9F00E2C101 /* AppDelegate.swift */; };
-		B8E7FB8E206E1F9F00E2C101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E7FB8D206E1F9F00E2C101 /* ViewController.swift */; };
+		B8E7FB8E206E1F9F00E2C101 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E7FB8D206E1F9F00E2C101 /* ListViewController.swift */; };
 		B8E7FB91206E1F9F00E2C101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E7FB8F206E1F9F00E2C101 /* Main.storyboard */; };
 		B8E7FB93206E1F9F00E2C101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E7FB92206E1F9F00E2C101 /* Assets.xcassets */; };
 		B8E7FB96206E1F9F00E2C101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E7FB94206E1F9F00E2C101 /* LaunchScreen.storyboard */; };
+		B8E7FB9E206E23D100E2C101 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E7FB9D206E23D100E2C101 /* ListTableViewCell.swift */; };
+		B8E7FBA0206E312C00E2C101 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E7FB9F206E312C00E2C101 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B8E7FB88206E1F9F00E2C101 /* DoItExercice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoItExercice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E7FB8B206E1F9F00E2C101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8E7FB8D206E1F9F00E2C101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8E7FB8D206E1F9F00E2C101 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		B8E7FB90206E1F9F00E2C101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8E7FB92206E1F9F00E2C101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8E7FB95206E1F9F00E2C101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8E7FB97206E1F9F00E2C101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E7FB9D206E23D100E2C101 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		B8E7FB9F206E312C00E2C101 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				B8E7FB8B206E1F9F00E2C101 /* AppDelegate.swift */,
-				B8E7FB8D206E1F9F00E2C101 /* ViewController.swift */,
+				B8E7FB8D206E1F9F00E2C101 /* ListViewController.swift */,
 				B8E7FB8F206E1F9F00E2C101 /* Main.storyboard */,
 				B8E7FB92206E1F9F00E2C101 /* Assets.xcassets */,
 				B8E7FB94206E1F9F00E2C101 /* LaunchScreen.storyboard */,
 				B8E7FB97206E1F9F00E2C101 /* Info.plist */,
+				B8E7FB9D206E23D100E2C101 /* ListTableViewCell.swift */,
+				B8E7FB9F206E312C00E2C101 /* Item.swift */,
 			);
 			path = DoItExercice;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E7FB8E206E1F9F00E2C101 /* ViewController.swift in Sources */,
+				B8E7FBA0206E312C00E2C101 /* Item.swift in Sources */,
+				B8E7FB8E206E1F9F00E2C101 /* ListViewController.swift in Sources */,
 				B8E7FB8C206E1F9F00E2C101 /* AppDelegate.swift in Sources */,
+				B8E7FB9E206E23D100E2C101 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
